@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family:'Times New Roman', Times, serif
+}
+.link{
+    color: hsl(236,13%,42%);
+   
+  } 
+
+.content h2 {
+    color: hsl(233, 8%, 79%);
+    font-size: 2.rem;
+  
+  }
+  .content h3{
+    font-size: 1.2rem;
+  }
+  .content p{
+    font-size: .9rem;
+  }
+  .col-xl-4 img{ 
+    max-width: 120px;
+    height: 152px; 
+  }
+  .links ul li a:hover
+  {
+    color: hsl(349, 74%, 48%);
+
+  }
+  .content h3:hover{
+    color: hsl(349, 74%, 48%);
+  }
+.col-md-6 h1{
+  font-size: 3rem;
+  font-weight: 800;
+}
+.navbar{
+
+animation: fadeIn 5s;
+      
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; 
+    transform: translateY(-20px);
+  }
+  100% { opacity: 1;
+    transform: translateY(0);
+   }
+}
+.col-md-4{
+  animation: fadeInRight 5s ease-in-out;
+}
+@keyframes  fadeInRight  {
+  0% { opacity: 0; 
+    transform: translateX(300px);
+  }
+  100% { opacity: 1;
+    transform: translateY(0);
+   }
+}
